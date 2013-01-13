@@ -24,3 +24,5 @@ public class Main {
     }
 }
 {% endhighlight %}
+
+{% include JB/comments %}
