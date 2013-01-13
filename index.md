@@ -5,8 +5,9 @@ tagline: cd /
 ---
 {% include JB/setup %}
 
-## Let's test it this work :
+## Let's test if this work :
 
+{% highlight java %}
     public class Main {
         public static void main(String args) {
             /*
@@ -22,4 +23,4 @@ tagline: cd /
             return 42;
         }
     }
-
+{% endhighlight %}
