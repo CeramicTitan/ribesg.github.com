@@ -1,7 +1,8 @@
 ---
 layout: post
-category : main
-tags : [blog, main]
+category: main
+tagline: First post's tagline !
+tags: [blog, main]
 ---
 {% include JB/setup %}
 
