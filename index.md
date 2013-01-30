@@ -14,9 +14,7 @@ Après l'obtention de mon Baccalauréat Scientifique Mention Bien au Lycée Ren�
 
 ## Bukkit !
 I started developping [Bukkit][] plugins during the second semester of 2010. This work learnt me the **Java** language, how to use Eclipse, how to use an API dans how to read JavaDocs.
-
 I'm currently working on a new project, between a complete rewrite of _almost_ everything I made during the last 2 years and a new organisation of my plugins : **the N plugins suite**.
-
 I may add more informations on this project somewhere on this website. Here's a list of related projects :
 
 * **[NCore][]** : Core plugin, it's like a platform for every nodes to connect, for each one to be able to use each other, without cycle dependencies.
@@ -31,9 +29,9 @@ This list will grow as ideas come. I will soon add my 2 public plugins : TheEndA
 {% include JB/comments %}
 
 <!--- Under this lines are links defined --->
-[Ensimag]: http://ensimag.grenoble-inp.fr/ "Ensimag"
+[Ensimag]: http://ensimag.grenoble-inp.fr/ecole-nationale-superieure-d-informatique-et-de-mathematiques-appliquees-74488.kjsp?RH=ENSIMAG_FR&RF=ENSIMAG_EN "Ensimag"
 
-[Hewlett-Packard]: http://fr.wikipedia.org/wiki/Hewlett-Packard "Hewlett-Packard"
+[Hewlett-Packard]: http://en.wikipedia.org/wiki/Hewlett-Packard "Hewlett-Packard"
 
 [Bukkit]: http://bukkit.org "Bukkit Forums"
 
