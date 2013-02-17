@@ -28,7 +28,8 @@ If you want more informations about this project : [NPlugins][]
 [Bukkit]: http://bukkit.org "Bukkit Forums"
 
 
-[NPlugins]: http:// "Dead link for now"
+[NPlugins]: /bukkit/NPlugins/ "More informations about NPlugins"
+
 [NCore]: https://github.com/Ribesg/NCore "NCore plugin repository"
 [NGeneral]: https://github.com/Ribesg/NGeneral "NGeneral plugin repository"
 [NCuboid]: https://github.com/Ribesg/NCuboid "NCuboid plugin repository"
