@@ -1,13 +1,13 @@
 ---
 layout: page
-title: NDodgeBall plugin for Bukkit
+title: NDodgeball plugin for Bukkit
 category: bukkit
 tagline: Also compatible with MCPC
 tags: [bukkit, plugin]
 ---
 {% include JB/setup %}
 
-NDodgeBall is a [Bukkit][] plugin and is part of the [NPlugins][] project.
+NDodgeball is a [Bukkit][] plugin and is part of the [NPlugins][] project.
 You can view the source of all plugins in the [NPlugins Github repository][].
 
 ### *Status :* Indev - 0% 
