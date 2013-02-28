@@ -16,7 +16,7 @@ It will need [NCuboid][] to work. Nothing else to say, self-explanatory ! Basica
 
 _DONE:_
 * Plugin structure
-* Nothing else yet, maybe I should finish [NCuboide][] first.
+* Nothing else yet, maybe I should finish [NCuboid][] first.
 
 _TODO:_
 * Everything
