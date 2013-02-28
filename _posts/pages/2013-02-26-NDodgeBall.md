@@ -10,13 +10,17 @@ tags: [bukkit, plugin]
 NDodgeball is a [Bukkit][] plugin and is part of the [NPlugins][] project.
 You can view the source of all plugins in the [NPlugins Github repository][].
 
-### *Status :* Indev - 0% 
+### *Status :* Indev
 
 It will need [NCuboid][] to work. Nothing else to say, self-explanatory ! Basically, it would use the Cuboids for the game itself, and you would define a "game zone" with one selection, automagically subdivised in 4 cuboids with every needed flags etc. You would be able to start a game with a command, players would use a command to join, teams would have colored leather armors, and why not fireworks of the winning team color at the end ?
 
-_TODO List:_
+_DONE:_
+* Plugin structure
+* Nothing else yet, maybe I should finish [NCuboide][] first.
+
+_TODO:_
 * Everything
-* Everything
+* Everything else
 
 {% include JB/comments %}
 

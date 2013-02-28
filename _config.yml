@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : ~/Rib.log
-tagline: \"Hello World !\" > Rib.log
+tagline: cat Rib.log
 author :
   name : Gael Ribes
   email : ribesg@yahoo.fr

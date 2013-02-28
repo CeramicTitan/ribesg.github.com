@@ -10,13 +10,17 @@ tags: [bukkit, plugin]
 NEnchantingEgg is a [Bukkit][] plugin and is part of the [NPlugins][] project.
 You can view the source of all plugins in the [NPlugins Github repository][].
 
-### *Status :* Indev - 0%
+### *Status :* Indev
 
 A rewrite of my [MagicEgg][] plugin, with at least the same functions and highly configurable.
 
-_TODO List:_
+_DONE:_
+* Plugin structure
+* Decided to make it totally configurable (how many different cases with probabilities, luck factor, etc)
+
+_TODO:_
 * Everything
-* Everything
+* Everything else
 
 {% include JB/comments %}
 

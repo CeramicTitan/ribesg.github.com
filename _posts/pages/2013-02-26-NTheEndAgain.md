@@ -10,13 +10,17 @@ tags: [bukkit, plugin]
 NTheEndAgain is a [Bukkit][] plugin and is part of the [NPlugins][] project.
 You can view the source of all plugins in the [NPlugins Github repository][].
 
-### *Status :* Indev - 0%
+### *Status :* Indev
 
 A rewrite of my [TheEndAgain][] plugin, with at least the same functions. Just better, faster.
 
-_TODO List:_
+_DONE:_
+* Plugin structure (Config/Messages/Main class)
+* Chunk representation
+
+_TODO:_
 * Everything
-* Everything
+* Everything else
 
 {% include JB/comments %}
 
