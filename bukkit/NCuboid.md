@@ -24,6 +24,7 @@ _DONE:_
   * **`/cuboid delete <cuboidName>`** with aliases **`d`**, **`r`** and **`remove`** for **`delete`**
 
 _TODO:_
+* Investigate non-Cuboid regions (Cylinders)
 * Commands:
   * New alias **`r`** for **`reload`** in command **`/cuboid reload <configName>`**
   * **`/cuboid delete <cuboidName>`** with aliases **`d`**, **`r`** and **`remove`** for **`delete`**
@@ -36,7 +37,6 @@ _TODO:_
   * **`/cuboid welcomeMessage [message]`** with alias **`wm`** for **`welcomeMessage`**
   * **`/cuboid farewellMessage [message]`** with alias **`fm`** for **`farewellMessage`**
   * Meny others
-* Investigate non-Cuboid regions (Cylinders)
 
 {% include JB/comments %}
 
