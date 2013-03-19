@@ -27,7 +27,7 @@ _TODO:_
 <!--- Under this lines are links defined --->
 [Bukkit]: http://bukkit.org "Bukkit Forums"
 
-[NPlugins]: /bukkit/NPlugins "NPlugins project page"
+[NPlugins]: /bukkit/NPlugins.html "NPlugins project page"
 [NPlugins Github repository]: https://github.com/Ribesg/NPlugins "NPlugins Github repository"
 
 [NCuboid]: /bukkit/NCuboid "NCuboid dedicated page"
