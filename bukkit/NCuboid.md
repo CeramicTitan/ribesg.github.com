@@ -18,10 +18,24 @@ _DONE:_
 * Plugin Structure
 * Cuboid, CuboidDB representations. Almost completely done.
 * Almost every Events are handled, linked to config etc.
-* Cuboid creation commands
+* Commands:
+  * **`/cuboid reload <configName>`** with alias **`rld`** for **`reload`**
+  * **`/cuboid create <cuboidName>`** with alias **`c`** for **`create`**
+  * **`/cuboid delete <cuboidName>`** with aliases **`d`**, **`r`** and **`remove`** for **`delete`**
 
 _TODO:_
-* Almost every commands: changing flags, resize, shift, allow/deny players/groups, all flag-attributes related commands
+* Commands:
+  * New alias **`r`** for **`reload`** in command **`/cuboid reload <configName>`**
+  * **`/cuboid delete <cuboidName>`** with aliases **`d`**, **`r`** and **`remove`** for **`delete`**
+  * **`/cuboid`** with aliases **`c`** and **`cubo`** for **`cuboid`** (Gives informations on player's cuboids)
+  * **`/cuboid info <cuboidName>`** with alias **`i`** for **`info`**
+  * **`/cuboid help [pageNumber]`** with alias **`h`** for **`help`**
+  * **`/cuboid flag <cuboidName> <flagName> <value>`** with alias **`f`** for **`flag`**. Allowed values:
+    * **`true`**, **`enabled`**, **`t`**, **`1`**
+    * **`false`**, **`disabled`**, **`f`**, **`0`**
+  * **`/cuboid welcomeMessage [message]`** with alias **`wm`** for **`welcomeMessage`**
+  * **`/cuboid farewellMessage [message]`** with alias **`fm`** for **`farewellMessage`**
+  * Meny others
 * Investigate non-Cuboid regions (Cylinders)
 
 {% include JB/comments %}
