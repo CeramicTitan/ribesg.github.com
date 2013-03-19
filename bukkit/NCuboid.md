@@ -19,19 +19,19 @@ _DONE:_
 * Cuboid, CuboidDB representations. Almost completely done.
 * Almost every Events are handled, linked to config etc.
 * Commands:
-  + **/cuboid reload \<configName>** with alias **rld** for **reload**
-  + **/cuboid create \<cuboidName>** with alias **c** for **create**
-  + **/cuboid delete \<cuboidName>** with aliases **d**, **r** and **remove** for **delete**
+  + **/cuboid reload \<<configName>** with alias **rld** for **reload**
+  + **/cuboid create \<<cuboidName>** with alias **c** for **create**
+  + **/cuboid delete \<<cuboidName>** with aliases **d**, **r** and **remove** for **delete**
 
 _TODO:_
 * Investigate non-Cuboid regions (Cylinders)
 * Commands:
-  + New alias **r** for **reload** in command **/cuboid reload \<configName>**
-  + **/cuboid delete \<cuboidName>** with aliases **d**, **r** and **remove** for **delete**
+  + New alias **r** for **reload** in command **/cuboid reload \<<configName>**
+  + **/cuboid delete \<<cuboidName>** with aliases **d**, **r** and **remove** for **delete**
   + **/cuboid** with aliases **c** and **cubo** for **cuboid** (Gives informations on player's cuboids)
-  + **/cuboid info \<cuboidName>** with alias **i** for **info**
+  + **/cuboid info \<<cuboidName>** with alias **i** for **info**
   + **/cuboid help [pageNumber]** with alias **h** for **help**
-  + **/cuboid flag \<cuboidName> \<flagName> \<value>** with alias **f** for **flag**. Allowed values:
+  + **/cuboid flag \<<cuboidName> \<<flagName> \<<value>** with alias **f** for **flag**. Allowed values:
     - **true**, **enabled**, **t**, **1**
     - **false**, **disabled**, **f**, **0**
   + **/cuboid welcomeMessage \[message\]** with alias **wm** for **welcomeMessage**
