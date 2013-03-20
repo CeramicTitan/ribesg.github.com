@@ -18,30 +18,26 @@ _DONE:_
 * Plugin Structure
 * Cuboid, CuboidDB representations. Almost completely done.
 * Almost every Events are handled, linked to config etc.
-* Commands:
-
-    `/cuboid reload <configName>`
-    `/cuboid create <cuboidName>`
-
-* Aliases:
+* Commands:  
+    `/cuboid reload <configName>`  
+    `/cuboid create <cuboidName>`  
+* Aliases:  
   + cuboid: cubo, c
   + reload: rld, r
   + create: c
 
 _TODO:_
 * Investigate non-Cuboid regions (Cylinders). Will be done after some releases.
-* Commands:
-
-    `/cuboid` (Gives informations on player's cuboids)
-    `/cuboid delete <cuboidName>`
-    `/cuboid info <cuboidName>`
-    `/cuboid help [pageNumber]`
-    `/cuboid flag <cuboidName> <flagName> <value>`
-    `/cuboid welcomeMessage [message]`
-    `/cuboid farewellMessage [message]`
-    +Many others
-
-* Aliases:
+* Commands:  
+    `/cuboid` (Gives informations on player's cuboids)  
+    `/cuboid delete <cuboidName>`  
+    `/cuboid info <cuboidName>`  
+    `/cuboid help [pageNumber]`  
+    `/cuboid flag <cuboidName> <flagName> <value>`  
+    `/cuboid welcomeMessage [message]`  
+    `/cuboid farewellMessage [message]`  
+    +Many others  
+* Aliases:  
   + delete: d, remove, rm
   + info: i
   + help: h, ?
