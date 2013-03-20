@@ -373,7 +373,7 @@ ul ul,
 ul ol,
 ol ol,
 ol ul {
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
 }
 ul {
   list-style: disc;
@@ -479,7 +479,7 @@ code, pre {
 }
 code {
   padding: 3px 4px;
-  margin: 0 0 5px;
+  line-height: 25px;
   color: #d14;
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;
