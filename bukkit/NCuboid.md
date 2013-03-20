@@ -22,9 +22,9 @@ _DONE:_
     `/cuboid reload <configName>`  
     `/cuboid create <cuboidName>`  
 * Aliases:  
-  + cuboid: cubo, c
-  + reload: rld, r
-  + create: c
+  + `cuboid`: `cubo`, `c`
+  + `reload`: `rld`, `r`
+  + `create`: `c`
 
 _TODO:_
 * Investigate non-Cuboid regions (Cylinders). Will be done after some releases.
@@ -36,17 +36,41 @@ _TODO:_
     `/cuboid flag <cuboidName> <flagName> <value>`  
     `/cuboid welcomeMessage [message]`  
     `/cuboid farewellMessage [message]`  
-    +Many others  
+    `/cuboid setJailPoint <cuboidName> <jailName>`  
+    `/cuboid delJailPoint <jailName>`  
+    `/cuboid rename <cuboidName> <newName>`  
+    `/cuboid setOwner <cuboidName> <newOwnerName>`  
+    `/cuboid addCoOwner <cuboidName> <newCoOwnerName>`  
+    `/cuboid delCoOwner <cuboidName> <coOwnerName>`  
+    `/cuboid redefine <cuboidName>`  
+    `/cuboid allow <cuboidName> <playerName>`  
+    `/cuboid deny <cuboidName> <playerName>`  
+    `/cuboid allowCommand <cuboidName> <commandName>`  
+    `/cuboid denyCommand <cuboidName> <commandName>`  
+    `/cuboid list <playerName>`  
+    Following commands may be change to a unique `/cuboid set <cuboidName> <attributeName> <value>`  
+    `/cuboid setExternalPoint <cuboidName> [ worldName,x,y,z | worldName x y z ]`  
+    `/cuboid setInternalPoint <cuboidName> [ worldName,x,y,z | worldName x y z ]`  
+    `/cuboid setBoosterVector <cuboidName> < x,y,z | x y z >`  
+    `/cuboid setHealAmount <cuboidName> <amount>` Temporary usage, may change  
+    `/cuboid setHealTimer <cuboidName> <timer>` Temporary usage, may change  
+    `/cuboid setHealMin <cuboidName> <min>` Temporary usage, may change  
+    `/cuboid setHealMax <cuboidName> <max>` Temporary usage, may change  
+    `/cuboid setFeedAmount <cuboidName> <amount>` Temporary usage, may change  
+    `/cuboid setFeedTimer <cuboidName> <timer>` Temporary usage, may change  
+    `/cuboid setFeedMin <cuboidName> <min>` Temporary usage, may change  
+    `/cuboid setFeedMax <cuboidName> <max>` Temporary usage, may change  
+    +Many others not yet listed  
 * Aliases:  
-  + delete: d, remove, rm
-  + info: i
-  + help: h, ?
-  + flag: f
-  + flag values:
-    - true, enable, enabled, on, 1
-    - false, disabled, disable, off, 0
-  + welcomeMessage: wm
-  + farewellMessage: fm
+  + `delete`: `d`, `remove`, `rm`
+  + `info`: `i`
+  + `help`: `h`, `?`
+  + `flag`: `f`
+  + flag `<values>`:
+    - `true`, `enable`, `enabled`, `on`, `1`
+    - `false`, `disable`, `disabled`, `off`, `0`
+  + `welcomeMessage`: `wm`
+  + `farewellMessage`: `fm`
 * A lot of tests
 
 {% include JB/comments %}
