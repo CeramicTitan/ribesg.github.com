@@ -2,7 +2,7 @@
 layout: page
 title: NEnchantingEgg plugin for Bukkit
 category: bukkit
-tagline: Make Dragon Eggs usefull : enchant up to level 10 ! Use with NTheEndAgain !
+tagline: Make Dragon Eggs usefull, enchant up to level 10 ! Use with NTheEndAgain !
 tags: [bukkit, plugin]
 ---
 {% include JB/setup %}
