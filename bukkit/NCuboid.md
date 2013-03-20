@@ -19,24 +19,35 @@ _DONE:_
 * Cuboid, CuboidDB representations. Almost completely done.
 * Almost every Events are handled, linked to config etc.
 * Commands:
-  + **/cuboid reload \<<configName>** with alias **rld** for **reload**
-  + **/cuboid create \<<cuboidName>** with alias **c** for **create**
-  + **/cuboid delete \<<cuboidName>** with aliases **d**, **r** and **remove** for **delete**
+    /cuboid reload <configName>
+    /cuboid create <cuboidName>
+* Aliases:
+  + cuboid: cubo, c
+  + reload: rld, r
+  + create: c
 
 _TODO:_
-* Investigate non-Cuboid regions (Cylinders)
+* Investigate non-Cuboid regions (Cylinders). Will be done after some releases.
 * Commands:
-  + New alias **r** for **reload** in command **/cuboid reload \<<configName>**
-  + **/cuboid delete \<<cuboidName>** with aliases **d**, **r** and **remove** for **delete**
-  + **/cuboid** with aliases **c** and **cubo** for **cuboid** (Gives informations on player's cuboids)
-  + **/cuboid info \<<cuboidName>** with alias **i** for **info**
-  + **/cuboid help [pageNumber]** with alias **h** for **help**
-  + **/cuboid flag \<<cuboidName> \<<flagName> \<<value>** with alias **f** for **flag**. Allowed values:
-    - **true**, **enabled**, **t**, **1**
-    - **false**, **disabled**, **f**, **0**
-  + **/cuboid welcomeMessage \[message\]** with alias **wm** for **welcomeMessage**
-  + **/cuboid farewellMessage \[message\]** with alias **fm** for **farewellMessage**
-  + Many others
+    /cuboid (Gives informations on player's cuboids)
+    /cuboid delete <cuboidName>
+    /cuboid info <cuboidName>
+    /cuboid help [pageNumber]
+    /cuboid flag <cuboidName> <flagName> <value>
+    /cuboid welcomeMessage [message]
+    /cuboid farewellMessage [message]
+    Many others
+* Aliases:
+  + delete: d, remove, rm
+  + info: i
+  + help: h, ?
+  + flag: f
+  + flag values:
+    - true, enable, enabled, on, 1
+    - false, disabled, disable, off, 0
+  + welcomeMessage: wm
+  + farewellMessage: fm
+* A lot of tests
 
 {% include JB/comments %}
 
