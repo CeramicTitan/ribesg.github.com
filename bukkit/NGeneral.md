@@ -2,7 +2,7 @@
 layout: page
 title: NGeneral plugin for Bukkit
 category: bukkit
-tagline: Also compatible with MCPC
+tagline: All general commands & little features
 tags: [bukkit, plugin]
 ---
 {% include JB/setup %}

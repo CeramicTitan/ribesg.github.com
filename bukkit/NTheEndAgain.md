@@ -2,7 +2,7 @@
 layout: page
 title: NTheEndAgain plugin for Bukkit
 category: bukkit
-tagline: Also compatible with MCPC
+tagline: Infinite EnderDragons ! End selective regeneration ! 
 tags: [bukkit, plugin]
 ---
 {% include JB/setup %}

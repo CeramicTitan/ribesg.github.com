@@ -2,7 +2,7 @@
 layout: page
 title: NCore plugin for Bukkit
 category: bukkit
-tagline: Also compatible with MCPC
+tagline: Needed for interactions between N plugins
 tags: [bukkit, plugin]
 ---
 {% include JB/setup %}

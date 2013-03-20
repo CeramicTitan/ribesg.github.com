@@ -2,7 +2,7 @@
 layout: page
 title: NTalk plugin for Bukkit
 category: bukkit
-tagline: Also compatible with MCPC
+tagline: Chat ! Nicknames ! Colors ! Censor ! Colored Tags !
 tags: [bukkit, plugin]
 ---
 {% include JB/setup %}

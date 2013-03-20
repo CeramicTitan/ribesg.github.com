@@ -2,7 +2,7 @@
 layout: page
 title: NPlayer plugin for Bukkit
 category: bukkit
-tagline: Also compatible with MCPC
+tagline: Player information & punishment plugin. Ban/Kick/Jail, get IP, first/last seen, etc.
 tags: [bukkit, plugin]
 ---
 {% include JB/setup %}

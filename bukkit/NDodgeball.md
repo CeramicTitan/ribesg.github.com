@@ -2,7 +2,7 @@
 layout: page
 title: NDodgeball plugin for Bukkit
 category: bukkit
-tagline: Also compatible with MCPC
+tagline: Simple Dodgeball game using cuboids from NCuboid !
 tags: [bukkit, plugin]
 ---
 {% include JB/setup %}

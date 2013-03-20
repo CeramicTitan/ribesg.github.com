@@ -2,7 +2,7 @@
 layout: page
 title: NCuboid plugin for Bukkit
 category: bukkit
-tagline: Also compatible with MCPC
+tagline: Protection plugin for all your needs. Will be highly configurable.
 tags: [bukkit, plugin]
 ---
 {% include JB/setup %}
