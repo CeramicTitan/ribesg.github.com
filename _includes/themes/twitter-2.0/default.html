@@ -44,7 +44,8 @@
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <div class="nav-collapse">
             <ul class="nav">
-              {% for p in site.navigation %}
+              {% assign group = 'navigation' %}
+              {% for p in group %}
                 <li> 
                   <a  {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.navigation.title }}</a>
                 </li>
