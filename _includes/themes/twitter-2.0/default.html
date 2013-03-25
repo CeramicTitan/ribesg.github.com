@@ -45,24 +45,28 @@
           <div class="nav-collapse">
             <ul class="nav">
               {% assign main_url = '/' %}
+              {% assign main_url_html = 'index.html' %}
               {% assign nplugins_url = '/bukkit/NPlugins' %}
+              {% assign nplugins_url_html = '/bukkit/NPlugins.html' %}
               {% assign donate_url = '/donate' %}
+              {% assign donate_url_html = '/donate.html' %}
               {% assign archive_url = '/archive' %}
+              {% assign archive_url_html = '/archive.html' %}
               
-              <li {% if page.url == main_url|append:'.html' %}class="active"{% endif %}>
-                <a {% if page.url == main_url|append:'.html' %}class="active"{% endif %}href="{{main_url}}">Main</a>
+              <li {% if page.url == main_url_html %}class="active"{% endif %}>
+                <a {% if page.url == main_url_html %}class="active"{% endif %}href="{{main_url}}">Main</a>
               </li>
               
-              <li {% if page.url == nplugins_url|append:'.html' %}class="active"{% endif %}>
-                <a {% if page.url == nplugins_url|append:'.html' %}class="active"{% endif %}href="{{nplugins_url}}">NPlugins</a>
+              <li {% if page.url == nplugins_url_html %}class="active"{% endif %}>
+                <a {% if page.url == nplugins_url_html %}class="active"{% endif %}href="{{nplugins_url}}">NPlugins</a>
               </li>
               
-              <li {% if page.url == donate_url|append:'.html' %}class="active"{% endif %}>
-                <a {% if page.url == donate_url|append:'.html' %}class="active"{% endif %}href="{{donate_url}}">Donate</a>
+              <li {% if page.url == donate_url_html %}class="active"{% endif %}>
+                <a {% if page.url == donate_url_html %}class="active"{% endif %}href="{{donate_url}}">Donate</a>
               </li>
               
-              <li {% if page.url == archive_url|append:'.html' %}class="active"{% endif %}>
-                <a {% if page.url == archive_url|append:'.html' %}class="active"{% endif %}href="{{archive_url}}">Archive</a>
+              <li {% if page.url == archive_url_html %}class="active"{% endif %}>
+                <a {% if page.url == archive_url_html %}class="active"{% endif %}href="{{archive_url}}">Archive</a>
               </li>
               
             </ul>
