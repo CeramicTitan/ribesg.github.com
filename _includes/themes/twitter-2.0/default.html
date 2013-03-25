@@ -48,10 +48,10 @@
               {% assign nplugins_url = 'bukkit/NPlugins.html' %}
               {% assign donate_url = 'donate.html' %}
               {% assign archive_url = 'archive.html' %}
-              <li{% if page.url == main_url %}class="active"{% endif %}> <a href="{{main_url}}">Main</a></li>
-              <li{% if page.url == nplugins_url %}class="active"{% endif %}> <a href="{{nplugins_url}}">NPlugins</a></li>
-              <li{% if page.url == donate_url %}class="active"{% endif %}> <a href="{{donate_url}}">Donate</a></li>
-              <li{% if page.url == archive_url %}class="active"{% endif %}> <a href="{{archive_url}}">Archive</a></li>
+              <li> <a {% if page.url == main_url %}class="active"{% endif %}href="{{main_url}}">Main</a></li>
+              <li> <a {% if page.url == nplugins_url %}class="active"{% endif %}href="{{nplugins_url}}">NPlugins</a></li>
+              <li> <a {% if page.url == donate_url %}class="active"{% endif %}href="{{donate_url}}">Donate</a></li>
+              <li> <a {% if page.url == archive_url %}class="active"{% endif %}href="{{archive_url}}">Archive</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
