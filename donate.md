@@ -2,7 +2,10 @@
 layout: page
 title: Donate
 tagline: Buy me a pizza ! Or two ;-)
-group: navigation
+navigation:
+  title: Donate
+  weight: 1000
+  show: true
 ---
 {% include JB/setup %}
 

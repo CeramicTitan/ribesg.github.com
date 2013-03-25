@@ -4,7 +4,10 @@ title: NPlugins
 category: bukkit
 tagline: The plugin suite for Bukkit named "N". Because Newton, Natural Numbers, Nitrogen, North, N scale, New !
 tags: [bukkit, plugin]
-group: navigation
+navigation:
+  title: N Plugins
+  weight: 100
+  show: true
 ---
 {% include JB/setup %}
 

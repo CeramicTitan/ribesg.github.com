@@ -2,7 +2,10 @@
 layout: page
 title: Ribesg's Blog
 tagline: new MySelf().blog();
-group: navigation
+navigation:
+  title: Main
+  weight: 10
+  show: true
 ---
 {% include JB/setup %}
 
