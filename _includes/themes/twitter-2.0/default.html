@@ -49,20 +49,20 @@
               {% assign donate_url = '/donate' %}
               {% assign archive_url = '/archive' %}
               
-              <li {% if page.url == main_url %}class="active"{% endif %}>
-                <a {% if page.url == main_url %}class="active"{% endif %}href="{{main_url}}">Main</a>
+              <li {% if page.url == main_url|append:'.html' %}class="active"{% endif %}>
+                <a {% if page.url == main_url|append:'.html' %}class="active"{% endif %}href="{{main_url}}">Main</a>
               </li>
               
-              <li {% if page.url == nplugins_url %}class="active"{% endif %}>
-                <a {% if page.url == nplugins_url %}class="active"{% endif %}href="{{nplugins_url}}">NPlugins</a>
+              <li {% if page.url == nplugins_url|append:'.html' %}class="active"{% endif %}>
+                <a {% if page.url == nplugins_url|append:'.html' %}class="active"{% endif %}href="{{nplugins_url}}">NPlugins</a>
               </li>
               
-              <li {% if page.url == donate_url %}class="active"{% endif %}>
-                <a {% if page.url == donate_url %}class="active"{% endif %}href="{{donate_url}}">Donate</a>
+              <li {% if page.url == donate_url|append:'.html' %}class="active"{% endif %}>
+                <a {% if page.url == donate_url|append:'.html' %}class="active"{% endif %}href="{{donate_url}}">Donate</a>
               </li>
               
-              <li {% if page.url == archive_url %}class="active"{% endif %}>
-                <a {% if page.url == archive_url %}class="active"{% endif %}href="{{archive_url}}">Archive</a>
+              <li {% if page.url == archive_url|append:'.html' %}class="active"{% endif %}>
+                <a {% if page.url == archive_url|append:'.html' %}class="active"{% endif %}href="{{archive_url}}">Archive</a>
               </li>
               
             </ul>
