@@ -8,6 +8,7 @@ navigation:
   title: N Plugins
   weight: 100
   show: true
+group: navigation
 ---
 {% include JB/setup %}
 

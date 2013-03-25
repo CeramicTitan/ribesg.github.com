@@ -6,6 +6,7 @@ navigation:
   title: Main
   weight: 10
   show: true
+group: navigation
 ---
 {% include JB/setup %}
 

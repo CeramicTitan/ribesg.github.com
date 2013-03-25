@@ -6,6 +6,7 @@ navigation:
   title: Donate
   weight: 1000
   show: true
+group: navigation
 ---
 {% include JB/setup %}
 
