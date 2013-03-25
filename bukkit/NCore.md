@@ -21,8 +21,8 @@ For example, you could use [NCuboid][] with [NPlayer][] to be able to use Cuboid
 <!--- Under this lines are links defined --->
 [Bukkit]: http://bukkit.org "Bukkit Forums"
 
-[NPlugins]: /bukkit/NPlugins.html "NPlugins project page"
+[NPlugins]: /bukkit/NPlugins "NPlugins project page"
 [NPlugins Github repository]: https://github.com/Ribesg/NPlugins "NPlugins Github repository"
 
-[NCuboid]: /bukkit/NCuboid.html "NCuboid dedicated page"
-[NPlayer]: /bukkit/NPlayer.html "NPlayer dedicated page"
+[NCuboid]: /bukkit/NCuboid "NCuboid dedicated page"
+[NPlayer]: /bukkit/NPlayer "NPlayer dedicated page"

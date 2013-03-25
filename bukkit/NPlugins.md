@@ -43,14 +43,14 @@ I'll add new codes as I use them.
 
 [NPlugins]: https://github.com/Ribesg/NPlugins "NPlugins Github repository"
 
-[NCore]: /bukkit/NCore.html "NCore dedicated page"
-[NGeneral]: /bukkit/NGeneral.html "NGeneral dedicated page"
-[NCuboid]: /bukkit/NCuboid.html "NCuboid dedicated page"
-[NPlayer]: /bukkit/NPlayer.html "NPlayer dedicated page"
-[NDodgeball]: /bukkit/NDodgeball.html "NDodgeball dedicated page"
-[NTheEndAgain]: /bukkit/NTheEndAgain.html "NTheEndAgain dedicated page"
-[NEnchantingEgg]: /bukkit/NEnchantingEgg.html "NEnchantingEgg dedicated page"
-[NTalk]: /bukkit/NTalk.html "NTalk dedicated page"
+[NCore]: /bukkit/NCore "NCore dedicated page"
+[NGeneral]: /bukkit/NGeneral "NGeneral dedicated page"
+[NCuboid]: /bukkit/NCuboid "NCuboid dedicated page"
+[NPlayer]: /bukkit/NPlayer "NPlayer dedicated page"
+[NDodgeball]: /bukkit/NDodgeball "NDodgeball dedicated page"
+[NTheEndAgain]: /bukkit/NTheEndAgain "NTheEndAgain dedicated page"
+[NEnchantingEgg]: /bukkit/NEnchantingEgg "NEnchantingEgg dedicated page"
+[NTalk]: /bukkit/NTalk "NTalk dedicated page"
 
 [TheEndAgain]: http://dev.bukkit.org/server-mods/n3w_theendagain/ "TheEndAgain on BukkitDev"
 [MagicEgg]: http://dev.bukkit.org/server-mods/magicegg/ "MagicEgg on BukkitDev"

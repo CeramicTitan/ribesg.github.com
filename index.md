@@ -42,4 +42,4 @@ If you want more informations about this project : [NPlugins][]
 [Bukkit]: http://bukkit.org "Bukkit Forums"
 
 
-[NPlugins]: /bukkit/NPlugins.html "More informations about NPlugins"
+[NPlugins]: /bukkit/NPlugins "More informations about NPlugins"
