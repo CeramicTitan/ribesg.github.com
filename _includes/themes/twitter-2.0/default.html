@@ -44,9 +44,14 @@
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <div class="nav-collapse">
             <ul class="nav">
-              {% assign pages_list = site.pages %}
-              {% assign group = 'navigation' %}
-              {% include JB/pages_list %}
+              {% assign main_url = 'index.html' %}
+              {% assign nplugins_url = 'bukkit/NPlugins.html' %}
+              {% assign donate_url = 'donate.html' %}
+              {% assign archive_url = 'archive.html' %}
+              <li{% if page.url == main_url %}class="active"{% endif %}> <a href="{{main_url}}">Main</a></li>
+              <li{% if page.url == nplugins_url %}class="active"{% endif %}> <a href="{{nplugins_url}}">NPlugins</a></li>
+              <li{% if page.url == donate_url %}class="active"{% endif %}> <a href="{{donate_url}}">Donate</a></li>
+              <li{% if page.url == archive_url %}class="active"{% endif %}> <a href="{{archive_url}}">Archive</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
