@@ -19,13 +19,13 @@ _DONE:_
 * Chunk representation
 * Complete Configuration
 * Finished Listener
-* Coded Commands (Not case sensitive):
-    `/end regen [worldName]`
-    `/end respawnEnderDragon [worldName]` or `/end respawnED [worldName]`
-    `/end nbEnderDragon [worldName]` or `/end nbED [worldName]`
-    `/end chunk info` or `/end chunk i`
-    `/end chunk protect` or `/end chunk p`
-    `/end chunk unprotect` or `/end chunk up`
+* Coded Commands (Not case sensitive):  
+    `/end regen [worldName]`  
+    `/end respawnEnderDragon [worldName]` or `/end respawnED [worldName]`  
+    `/end nbEnderDragon [worldName]` or `/end nbED [worldName]`  
+    `/end chunk info` or `/end chunk i`  
+    `/end chunk protect` or `/end chunk p`  
+    `/end chunk unprotect` or `/end chunk up`  
 * Some tests
 
 _TODO:_
